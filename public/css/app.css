@@ -1,0 +1,30 @@
+body { min-height: 100vh; }
+
+.img-scrollreveal{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contenedor{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, -50%);
+}
+
+h1{
+    font-family: 'Schoolbell', cursive;
+    color: rgb(41, 40, 58);
+}
